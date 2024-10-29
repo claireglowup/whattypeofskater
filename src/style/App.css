@@ -1,5 +1,4 @@
 .container-header {
-  border: 1px solid black;
   text-align: center;
   margin-top: 30px;
 }
@@ -7,4 +6,24 @@
 .container-header .header-title {
   font-weight: 800;
   font-size: 2.9rem;
+}
+
+.content {
+  width: 850px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.content h2 {
+  font-weight: 500;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.content .card-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
