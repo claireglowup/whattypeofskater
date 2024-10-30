@@ -2,6 +2,7 @@
 
 import "../style/App.css";
 import { CardList } from "./CardList";
+import { Footer } from "./Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <h2>team of</h2>
         <CardList />
       </div>
+      <Footer />
     </>
   );
 }

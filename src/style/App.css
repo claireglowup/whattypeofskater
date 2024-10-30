@@ -1,3 +1,5 @@
+/** @format */
+
 .container-header {
   text-align: center;
   margin-top: 30px;
@@ -21,14 +23,50 @@
   font-weight: 800;
   padding-bottom: 5px;
   border-bottom: 1px solid black;
-  margin-bottom: 10px;
+  margin-block: 10px;
 }
 
 .content .card-container {
   display: flex;
-  gap: 10px;
+  gap: 16px;
+  row-gap: 24px;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.card-container .card:hover img,
+.card-container .card:hover p {
+  transform: scale(1.05);
+  transition: transform 0.5s ease;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.footer {
+  margin-top: 50px;
+  padding-top: 20px;
+}
+
+.footer footer {
+  margin: auto;
+  text-align: center;
+  font-weight: 500;
+  padding: 20px;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  width: 500px;
+  border-radius: 5px 5px 0px 0px;
+  transition: all 0.5s;
+  transform: translateY(20px); /* Mulai dari bawah */
+  opacity: 0.7;
+}
+
+.footer footer:hover {
+  background-color: black;
+  color: white;
+  transform: translateY(0); /* Naik ke posisi semula */
+  opacity: 1;
 }
 
 /* Media Queries for Responsiveness */
