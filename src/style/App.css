@@ -63,20 +63,14 @@
   text-align: center;
   font-weight: 500;
   padding-block: 20px;
-  border-top: 1px solid black;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
+
   border-radius: 5px 5px 0px 0px;
   transition: all 0.5s;
-  transform: translateY(20px); /* Mulai dari bawah */
-  opacity: 0.7;
 }
 
 .footer footer:hover {
   background-color: black;
   color: white;
-  transform: translateY(0); /* Naik ke posisi semula */
-  opacity: 1;
 }
 
 /* Media Queries for Responsiveness */
