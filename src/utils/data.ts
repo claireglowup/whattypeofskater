@@ -36,6 +36,24 @@ const getInitialData = (): ImageData[] => {
         "https://i.pinimg.com/564x/ac/ea/93/acea9311800a9fbe96fc7fb122b4eb1e.jpg",
       nameImage: "baker",
     },
+    {
+      id: 6,
+      sourceImage:
+        "https://i.pinimg.com/564x/ed/99/21/ed99210dfb55d65a6270d06f1bdcb52d.jpg",
+      nameImage: "carhartt",
+    },
+    {
+      id: 7,
+      sourceImage:
+        "https://i.pinimg.com/564x/b5/e4/77/b5e47744361907f4bd6aedf8511bf098.jpg",
+      nameImage: "ratz ratz",
+    },
+    {
+      id: 8,
+      sourceImage:
+        "https://polarskateco.com/cdn/shop/files/Polar-Skate-Co-SP24-Big-Boy-Jeans-Dark-Blue-5.png?v=1708348063&width=1800",
+      nameImage: "polar",
+    },
   ];
 };
 

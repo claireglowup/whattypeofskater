@@ -9,14 +9,16 @@
 }
 
 .content {
+  max-width: 100%;
   width: 850px;
   margin: auto;
-  margin-top: 10px;
+  margin-top: 20px;
+  color: #4d4d4d;
+  padding: 0 15px; /* Add some padding for smaller screens */
 }
 
 .content h2 {
   font-weight: 800;
-  color: #4d4d4d;
   padding-bottom: 5px;
   border-bottom: 1px solid black;
   margin-bottom: 10px;
@@ -27,4 +29,29 @@
   gap: 10px;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 900px) {
+  .container-header .header-title {
+    font-size: 2.5rem; /* Adjust title size */
+  }
+
+  .content {
+    width: 90%; /* Allow content to take more width on smaller screens */
+  }
+}
+
+@media (max-width: 600px) {
+  .container-header .header-title {
+    font-size: 2rem; /* Further adjust title size */
+  }
+
+  .content h2 {
+    font-size: 1.5rem; /* Adjust heading size */
+  }
+
+  .content {
+    padding: 0 10px; /* Reduce padding */
+  }
 }

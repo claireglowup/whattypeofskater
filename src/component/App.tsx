@@ -10,7 +10,11 @@ function App() {
         </h1>
       </div>
       <div className="content">
-        <h2>team of</h2>
+        <p>
+          Since there’s a variety of skater styles, I choose to focus on the
+          ones I prefer.
+        </p>
+        <p>team of</h2>
         <CardList />
       </div>
     </>
