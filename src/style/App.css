@@ -57,14 +57,15 @@
 }
 
 .footer footer {
+  max-width: 100%;
+  width: 500px;
   margin: auto;
   text-align: center;
   font-weight: 500;
-  padding: 20px;
+  padding-block: 20px;
   border-top: 1px solid black;
   border-left: 1px solid black;
   border-right: 1px solid black;
-  width: 500px;
   border-radius: 5px 5px 0px 0px;
   transition: all 0.5s;
   transform: translateY(20px); /* Mulai dari bawah */
@@ -89,6 +90,20 @@
   }
 }
 
+@media (max-width: 768px) {
+  .container-header .header-title {
+    font-size: 2.1rem; /* Adjust title size for tablets */
+  }
+
+  .content h2 {
+    font-size: 1.8rem; /* Adjust heading size for tablets */
+  }
+
+  .footer footer {
+    width: 80%; /* Make footer width more responsive */
+  }
+}
+
 @media (max-width: 600px) {
   .container-header .header-title {
     font-size: 2rem; /* Further adjust title size */
@@ -100,5 +115,10 @@
 
   .content {
     padding: 0 10px; /* Reduce padding */
+  }
+
+  .footer footer {
+    width: 95%; /* Make footer width more responsive */
+    font-size: 0.9rem; /* Smaller font size for smaller screens */
   }
 }
