@@ -1,5 +1,14 @@
 /** @format */
 
+/* temporary */
+.alert-header {
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid red;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
 .container-header {
   text-align: center;
   margin-top: 30px;
