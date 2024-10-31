@@ -1,3 +1,14 @@
+/** @format */
+
+/* temporary */
+.alert-header {
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid red;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
 .container-header {
   text-align: center;
   margin-top: 30px;
@@ -21,14 +32,45 @@
   font-weight: 800;
   padding-bottom: 5px;
   border-bottom: 1px solid black;
-  margin-bottom: 10px;
+  margin-block: 10px;
 }
 
 .content .card-container {
   display: flex;
-  gap: 10px;
+  gap: 16px;
+  row-gap: 24px;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.card-container .card:hover img,
+.card-container .card:hover p {
+  transform: scale(1.05);
+  transition: transform 0.5s ease;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.footer {
+  margin-top: 50px;
+  padding-top: 20px;
+}
+
+.footer footer {
+  max-width: 100%;
+  width: 500px;
+  margin: auto;
+  text-align: center;
+  font-weight: 500;
+  padding-block: 20px;
+
+  border-radius: 5px 5px 0px 0px;
+  transition: all 0.5s;
+}
+
+.footer footer:hover {
+  background-color: black;
+  color: white;
 }
 
 /* Media Queries for Responsiveness */
@@ -39,6 +81,20 @@
 
   .content {
     width: 90%; /* Allow content to take more width on smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .container-header .header-title {
+    font-size: 2.1rem; /* Adjust title size for tablets */
+  }
+
+  .content h2 {
+    font-size: 1.8rem; /* Adjust heading size for tablets */
+  }
+
+  .footer footer {
+    width: 80%; /* Make footer width more responsive */
   }
 }
 
@@ -53,5 +109,10 @@
 
   .content {
     padding: 0 10px; /* Reduce padding */
+  }
+
+  .footer footer {
+    width: 95%; /* Make footer width more responsive */
+    font-size: 0.9rem; /* Smaller font size for smaller screens */
   }
 }
