@@ -1,5 +1,6 @@
 import { CardList } from "./CardList";
 import { Footer } from "./Footer";
+import "../style/Home.css";
 
 export const Home = () => {
   return (
