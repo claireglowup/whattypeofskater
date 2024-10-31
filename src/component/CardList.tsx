@@ -1,5 +1,6 @@
 import getInitialData from "../utils/data";
 import { CardItem } from "./CardItem";
+import "../style/CardList.css";
 
 export const CardList = () => {
   const initData = getInitialData();

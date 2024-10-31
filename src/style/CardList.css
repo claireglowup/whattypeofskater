@@ -1,0 +1,16 @@
+.card-container {
+  min-height: 600px;
+  display: flex;
+  gap: 16px;
+  row-gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-container .card:hover img,
+.card-container .card:hover p {
+  transform: scale(1.05);
+  transition: transform 0.5s ease;
+  margin-top: 10px;
+  cursor: pointer;
+}

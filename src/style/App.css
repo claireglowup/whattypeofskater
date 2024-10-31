@@ -35,45 +35,6 @@
   margin-block: 10px;
 }
 
-.content .card-container {
-  display: flex;
-  gap: 16px;
-  row-gap: 24px;
-  flex-wrap: wrap;
-  justify-content: center;
-  height: 600px;
-}
-
-.card-container .card:hover img,
-.card-container .card:hover p {
-  transform: scale(1.05);
-  transition: transform 0.5s ease;
-  margin-top: 10px;
-  cursor: pointer;
-}
-
-.footer {
-  margin-top: 50px;
-  padding-top: 20px;
-}
-
-.footer footer {
-  max-width: 100%;
-  width: 500px;
-  margin: auto;
-  text-align: center;
-  font-weight: 500;
-  padding-block: 20px;
-
-  border-radius: 5px 5px 0px 0px;
-  transition: all 0.5s;
-}
-
-.footer footer:hover {
-  background-color: black;
-  color: white;
-}
-
 /* Media Queries for Responsiveness */
 @media (max-width: 900px) {
   .container-header .header-title {
