@@ -41,6 +41,7 @@
   row-gap: 24px;
   flex-wrap: wrap;
   justify-content: center;
+  height: 600px;
 }
 
 .card-container .card:hover img,
