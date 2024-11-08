@@ -3,6 +3,7 @@
 import { useParams } from "react-router-dom";
 import "../style/TeamPage.css";
 import getInitialData from "../utils/data";
+import { Footer } from "./Footer";
 
 export const TeamPage = () => {
   const initData = getInitialData();
@@ -22,6 +23,8 @@ export const TeamPage = () => {
         referrerPolicy="strict-origin-when-cross-origin"
         allowFullScreen
       ></iframe>
+
+      <Footer />
     </div>
   );
 };
