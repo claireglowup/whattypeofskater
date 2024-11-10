@@ -23,15 +23,13 @@ export const TeamPage = () => {
         referrerPolicy="strict-origin-when-cross-origin"
         allowFullScreen
       ></iframe>
-
       <Footer />
     </div>
   );
 };
 
 const capitalizeWords = (str: string | undefined): string => {
-  if (!str) return ""; // Jika string kosong, kembalikan string itu sendiri
+  if (!str) return "";
 
-  // Mengubah huruf pertama menjadi kapital dan sisanya menjadi kecil
   return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
 };
