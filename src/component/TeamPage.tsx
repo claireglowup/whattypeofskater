@@ -23,6 +23,8 @@ export const TeamPage = () => {
         referrerPolicy="strict-origin-when-cross-origin"
         allowFullScreen
       ></iframe>
+      <h2 className="people-team">People</h2>
+      <p>people of the team will be here...</p>
       <Footer />
     </div>
   );
