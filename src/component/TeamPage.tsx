@@ -24,6 +24,7 @@ export const TeamPage = () => {
         allowFullScreen
       ></iframe>
       <h2 className="people-team">People</h2>
+      {/* there will be some photos of the team */}
       <p>people of the team will be here...</p>
       <Footer />
     </div>
