@@ -7,6 +7,22 @@
   margin-top: 50px;
 }
 
+.container-team .go-home {
+  color: rgb(5, 129, 129);
+  border: 1px solid rgb(5, 129, 129);
+  padding-inline: 20px;
+  padding-block: 3px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.5s;
+  font-weight: bold;
+}
+
+.container-team .go-home:hover {
+  background-color: rgb(5, 129, 129);
+  color: white;
+}
+
 .container-team h1 {
   font-size: 4rem;
   margin-bottom: 8px;

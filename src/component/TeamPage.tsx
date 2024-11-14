@@ -1,6 +1,6 @@
 /** @format */
 
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import "../style/TeamPage.css";
 import getInitialData from "../utils/data";
 import { Footer } from "./Footer";
@@ -12,6 +12,9 @@ export const TeamPage = () => {
 
   return (
     <div className="container-team">
+      <Link to={"/"} className="go-home">
+        Home
+      </Link>
       <h1>{capitalizeWords(team?.nameImage)}</h1>
       <p>
         <i>{capitalizeWords(team?.nameImage)}</i> {team?.description}
