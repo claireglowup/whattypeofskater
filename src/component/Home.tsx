@@ -5,9 +5,6 @@ import "../style/Home.css";
 export const Home = () => {
   return (
     <>
-      <div className="alert-header">
-        <p>⚠️ UNDER DEVELOPMENT ⚠️</p>
-      </div>
       <div className="container-header">
         <h1 className="header-title">
           what type of skater do you want to be ?
