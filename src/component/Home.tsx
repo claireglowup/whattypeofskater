@@ -15,7 +15,8 @@ export const Home = () => {
         <h2>team of</h2>
         <CardList />
       </div>
-      {/* otw puncak */}
+      {/* otw puncak WAIT
+      */}
       <Footer />
     </>
   );
